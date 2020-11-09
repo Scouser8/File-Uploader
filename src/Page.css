@@ -1,0 +1,12 @@
+.page {
+  display: flex;
+}
+
+.page__right {
+  /* position: absolute; */
+  display: flex;
+  /* justify-content: flex-start !important; */
+  /* flex: 1; */
+  margin: auto;
+  margin-top: 0px;
+}

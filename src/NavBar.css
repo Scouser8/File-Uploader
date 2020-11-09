@@ -1,0 +1,16 @@
+.navbar {
+  /* border: 3px #111 solid;
+    border-radius: 8px; */
+  margin-bottom: 1%;
+}
+
+.navbar__tab {
+  font-weight: 800 !important;
+  background-color: lightgray !important;
+  margin-right: 10px !important;
+  border-radius: 6px 6px 0px 0px !important;
+}
+
+.Mui-selected{
+  background-color: darkgray !important;
+}

@@ -1,0 +1,53 @@
+.form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.form__date {
+  width: 20%;
+}
+
+.form__submitBtn {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 550;
+  border-radius: 6px;
+  background: #707070;
+  color: whitesmoke;
+  width: 12%;
+  height: 35px;
+  align-self: center;
+  border: 3px #707070 solid;
+  outline: none;
+}
+
+.form__submitBtn:hover {
+  background: #d3d3d3;
+}
+
+/* Styling the input tag & the label that will actually show */
+.customInputFile {
+  padding: 5px;
+  background: #d3d3d3;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.customInputFile input[type="file"] {
+  display: none;
+}
+
+.customInputFile label {
+  background: #d3d3d3;
+  border: 3px dashed #111;
+  border-radius: 6px;
+  display: block;
+  padding: 8px 0;
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+

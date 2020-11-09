@@ -1,0 +1,23 @@
+.fileDetails__title {
+  background-color: darkgray;
+  color: whitesmoke;
+  border-radius: 6px;
+  height: 35px;
+}
+
+.fileDetails__info {
+  display: flex;
+  justify-content: center;
+}
+
+.fileDetails__info__fileName {
+  align-self: center;
+  margin-left: 2%;
+  max-width: 50%;
+}
+
+.fileDetails__info__logo {
+  color: #d3d3d3;
+  font-size: 5em;
+  cursor: default;
+}

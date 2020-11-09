@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Header";
+import { BrowserRouter } from "react-router-dom";
+import Page from "./Page";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    /*Wrapping the whole application with BrowserRouter to be able to navigate
+      inside the app using Route as we'll see in the components*/
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Page/> {/* All content in the page below the header */}
+      </div>
+    </BrowserRouter>
   );
 }
 

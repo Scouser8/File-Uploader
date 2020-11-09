@@ -1,0 +1,36 @@
+.sidebar-container__sidebar {
+  /* top: 60px; */
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: relative;
+  height: 90vh;
+}
+
+/* .sidebar-container__sidebar:hover{
+    width: 240px;
+} */
+
+.n-item {
+  /* background-color: gray; */
+}
+
+.sidebar__sidenav {
+  /* position: relative !important; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.last {
+  flex: 1;
+}
+
+.sidebar-container__logout {
+  background-color: #111;
+  margin-top: 25px;
+}
+
+.sidebar__text {
+  font-weight: 500 !important;
+}
