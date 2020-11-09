@@ -6,7 +6,7 @@ ReactJS concepts applied:
 3)React Context API
 
 How to use:
-Clone the repo or download files
-Enter the folder
-npm install
+Clone the repo or download files,
+Enter the folder, 
+npm install   
 npm start
