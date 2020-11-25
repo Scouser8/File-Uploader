@@ -1,5 +1,7 @@
 This is a basic file uploader web page developed using ReactJS including a responsive side bar & navigation bar including the file upload one & other tabs to be implemented in the future.
 
+Live Demo: https://file-uploader-a9752.web.app/
+
 ReactJS concepts applied:
 1)Functional Components
 2)React Hooks
